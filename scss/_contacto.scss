@@ -1,0 +1,39 @@
+/* SECCION CONTACTO */
+   
+.contacto {
+    /* aplicamos grid */
+    display: grid;
+   
+    background-image: url(../images/background.12.jpeg);
+    padding: 5%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+   }
+   
+   .tituloContacto {
+      grid-column: 1 / span 2;
+      font-size: 40px;
+      font-weight: bolder;
+   }
+   
+   .contactoP {
+      font-size: 20px;
+      font-family: 'Cormorant Garamond', serif;
+   }
+   
+   .imagContacto {
+      display: flex;
+      margin:10%;
+      justify-content: center;
+   }
+   
+   .infoContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: right;
+      margin:10%;
+   }
+   
+   

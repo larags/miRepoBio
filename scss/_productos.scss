@@ -1,0 +1,107 @@
+@import "_variables.scss"; 
+@import "index.scss";
+
+ 
+ /* SECCION PRODUCTOS */
+ .productosContainer {
+     margin-top: 10px;
+     padding:20px;
+     margin-right: 1%;
+     margin-left: 1%;
+
+       div.infoContainerP {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       margin-top: 10px;
+       margin-right: 20px;
+
+       p {
+          margin-top: 30px;
+          font-size: 20px;
+          color: aliceblue;
+       }
+    
+    }
+}
+.cardsContainer {
+     /* EXTENDS */
+    @extend .seccionDestacados;
+
+    /*MIXIN*/
+   @mixin cards ($ancho, $borde, $padding,) {
+    width: $ancho;
+    border: $borde;
+    padding: $padding;
+    }
+    .cardCosmeticos {
+     @include cards ($anchoCards, solid 1px rgba(102, 86, 86, 0.712),5px);
+    }
+    .cardSuplementos {
+        @include cards ($anchoCards, solid 1px rgba(102, 86, 86, 0.712),5px);
+    }
+    .cardFragancias {
+        @include cards ($anchoCards, solid 1px rgba(102, 86, 86, 0.712),5px);
+    }
+    .cardHigiene {
+        @include cards ($anchoCards, solid 1px rgba(102, 86, 86, 0.712),5px);
+    }
+    .cardAromat {
+        @include cards ($anchoCards, solid 1px rgba(102, 86, 86, 0.712),5px);
+    }
+    .cardCombos {
+        @include cards ($anchoCards, solid 1px rgba(102, 86, 86, 0.712),5px);
+    }
+    .cardLineas{
+        @include cards ($anchoCards, solid 1px rgba(102, 86, 86, 0.712),5px);
+    }
+    .card-title {
+    display: flex;
+    justify-content: center;
+ }
+ .card-title:hover {
+        color: rgba(160, 49, 118, 0.897);
+        
+      }
+ 
+}
+ /* boton de cards */
+ /* EXTENDS */
+     a.boton {
+    @extend a.button;
+    }
+    a.button:hover {
+    background-color: rgb(102, 86, 86);
+    border: black;
+ }
+
+/*BUCLES*/
+@for $i from 1 through 7 {
+ .seccion#{$i} {
+    display: flex;
+    flex-direction: column;
+    background-color: #BFADA8;
+ }
+}
+.seccion8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#BFADA8;
+    margin-left: 20%;
+    margin-right: 20%;
+.titulosP:hover {
+  color: aliceblue;
+}
+}
+.productosImg {
+   display: flex;
+   align-items: center;
+}
+
+.parrafoProduc {
+   margin-top: 30px;
+   font-size: 20px;
+   color: rgb(23, 25, 26);
+}

@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
+    <!-- TITULO -->
+    <title>Bioesencia-Zona Oeste-Productos</title>
+    <meta name="keywords" content="Cosmetica Natural, Productos veganos, Suplementos, Fragancias, Cremas corporales, Vegan, Productos naturales, Catalogo, Suplementos dieteticos, Maquillaje, Lineas especiales ">
+    <link rel="stylesheet" href="css/pruebacss.css">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- LOGO -->
+    <link rel="shortcut icon" href="images/logo.bio.jpeg" type="image/x-icon">
+
+</head>
+
+<body>
+    <header>
+        <!-- TITULO -->
+        <section>
+            <h1 class="header__titulo">Bioesencia</h1>
+            <h4 class="header__subtitulo">Productos</h4>
+        </section>
+        <!-- MENU -->
+        <nav class="contenedorMenu">
+            <!-- LOGO -->
+            <div class="logo">
+                <img src="images/logo.bio.jpeg" alt="Bioesencia logo" width="50px" height="50px">
+            </div>
+            <!-- MENU -->
+            <ul>
+                <li>
+                    <a class="menu" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="menu" href="acercade.html">Acerca de...</a>
+                </li>
+                <li>
+                    <a class="menu" href="productos.html">Productos</a>
+                    <!-- SUBMENU -->
+                    <ul>
+                        <li class="submenu"><a href="productos.html#seccionCosmeticos">Cosmeticos</a></li>
+                        <li class="submenu"><a href="productos.html#seccionSuplementos">Suplementos</a></li>
+                        <li class="submenu"><a href="productos.html#seccionFragancias">Fragancias</a></li>
+                        <li class="submenu"><a href="productos.html#seccionHigiene">Higiene</a></li>
+                        <li class="submenu"><a href="productos.html#seccionAromaterapia">Aromaterapia</a></li>
+                        <li class="submenu"><a href="productos.html#catalogo">Catalogo</a></li>
+                    </ul>
+                </li>
+                </li>
+                <li>
+                    <a class="menu" href="promociones.html">Promociones del Mes</a>
+                </li>
+                <li>
+                    <a class="menu" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- MENU MOBILE -->
+    <section class="menu-mobile">
+        <div class="topnav">
+            <div class="active">
+                <img src="images/logo.bio.jpeg" alt="Bioesencia logo" width="50px" height="50px">
+                <div id="myLinks">
+                    <a href="index.html">Home</a>
+                    <a href="acercade.html">Sobre Bioesencia</a>
+                    <a href="productos.html">Productos</a>
+                    <a href="promociones.html">Promociones del mes</a>
+                    <a href="contacto.html">Contacto</a>
+                </div>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img width="58px" height="58px" src="images/iconoMenuDes.png" alt="Hamburguesa de menu">
+            </a>
+        </div>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+    </section>
+    <!-- GRILLA DE PRODUCTOS  -->
+
+    <section>
+        <!-- COSMETICOS -->
+        <section class="productosContainer">
+            <div class="seccion1" id="seccionCosmeticos">
+                <img class="productosImg" src="images/background.cosmeticos.jpeg" width="1200px">
+                <div class="infoContainerP">
+                    <p class="parrafoProduc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic accusantium
+                        nisi, asperiores tenetur labore corporis at fugit exercitationem voluptates enim, expedita,
+                        delectus neque minus eum reprehenderit mollitia nam? Accusantium, facilis.</p>
+                </div>
+            </div>
+
+            <!-- CARDS DE COSMETICOS -->
+            <section class="cardsContainer">
+                <!-- CARD 1 -->
+                <div class="cardCosmeticos">
+                    <img src="images/baseMaquillaje.JPG" class="card-img-top" alt="Base maquillaje">
+                    <div class="card-body">
+                        <h5 class="card-title" id="baseTono1">Base de Maquillaje liquida tono 1</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 2 -->
+                </div>
+                <div class="cardCosmeticos">
+                    <img src="images/baseMaquillaje2.JPG" class="card-img-top" alt="Base maquillaje">
+                    <div class="card-body">
+                        <h5 class="card-title">Base de Maquillaje liquida tono 2</h5>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 3 -->
+                <div class="cardCosmeticos">
+                    <img src="images/correctorenBarra.jpg" class="card-img-top" alt="Corrector en barra">
+                    <div class="card-body">
+                        <h5 class="card-title">Corrector en barra tono medio</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 4 -->
+                <div class="cardCosmeticos">
+                    <img src="images/babyCreamProtector.jpg" class="card-img-top" alt="Crema protector">
+                    <div class="card-body">
+                        <h5 class="card-title">BB Cream con protector 50</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+            </section>
+            <section class="cardsContainer">
+                <!-- CARD 5 -->
+                <div class="cardCosmeticos">
+                    <img src="images/delineadorLiq.jpg" class="card-img-top" alt="Delneador liquido negro">
+                    <div class="card-body">
+                        <h5 class="card-title">Delineador liquido ojos- Punta fibra</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 6 -->
+                <div class="cardCosmeticos">
+                    <img src="images/labial.cremoso.fucsia.jpg" class="card-img-top" alt="Labial cremoso fucsia">
+                    <div class="card-body">
+                        <h5 class="card-title">Labial cremoso fucsia</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 7 -->
+                <div class="cardCosmeticos">
+                    <img src="images/labial.cremoso.nude.jpg" class="card-img-top" alt="Labial cremoso nude">
+                    <div class="card-body">
+                        <h5 class="card-title">Labial cremoso nude</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 8 -->
+                <div class="cardCosmeticos">
+                    <img src="images/labial.cremoso.rojo.jpg" class="card-img-top" alt="Labial cremoso rojo">
+                    <div class="card-body">
+                        <h5 class="card-title" id="labialRojo">Labial cremoso rojo</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- SUPLEMENTOS -->
+        <section class="productosContainer">
+            <div class="seccion2" id="seccionSuplementos">
+                <img class="productosImg" src="images/background.suplementos.jpeg" width="1200px" alt="Imagen suplemento">
+                <div class="infoContainerP">
+                    <p class="parrafoProduc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis incidunt
+                        itaque quibusdam similique facilis amet impedit iste suscipit veniam dolores quia, corporis
+                        doloribus vero autem dolore nemo rem, earum enim?.</p>
+                </div>
+            </div>
+            <!-- CARDS DE PRODUCTOS -->
+            <section class="cardsContainer">
+                <!-- CARD 1 -->
+                <div class="cardSuplementos">
+                    <img src="images/caramelosNatu.JPG" class="card-img-top" alt="Caramelos naturales suplemento">
+                    <div class="card-body">
+                        <h5 class="card-title" id="caramelos">Caramelos de miel y jengibre</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 2 -->
+                </div>
+                <div class="cardSuplementos">
+                    <img src="images/carbSuplementoDietario.JPG" class="card-img-top" alt="Carb suplemento">
+                    <div class="card-body">
+                        <h5 class="card-title" id="bioCarb">Bio-Carb</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 3 -->
+                <div class="cardSuplementos">
+                    <img src="images/colagenoSuplemento.JPG" class="card-img-top" alt="Colageno suplemento">
+                    <div class="card-body">
+                        <h5 class="card-title">Colageno hidrolizado</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 4 -->
+                <div class="cardSuplementos">
+                    <img src="images/cartilagoTiburonSuplementoDietario.JPG" class="card-img-top" alt="Cartilago tiburon suplemento">
+                    <div class="card-body">
+                        <h5 class="card-title">Cartilago de tiburon</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+            </section>
+            <section class="cardsContainer">
+                <!-- CARD 5 -->
+                <div class="cardSuplementos">
+                    <img src="images/chiaSuplementoDietario.JPG" class="card-img-top" alt="Chia suplemento">
+                    <div class="card-body">
+                        <h5 class="card-title">Chia 600 Omega 3</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 6 -->
+                <div class="cardSuplementos">
+                    <img src="images/ClorofilaSuplemento.JPG" class="card-img-top" alt="Clorofila suplemento">
+                    <div class="card-body">
+                        <h5 class="card-title">Clorofila</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 7 -->
+                <div class="cardSuplementos">
+                    <img src="images/curcumaSuplementoDietario.JPG" class="card-img-top" alt="Curcuma suplemento">
+                    <div class="card-body">
+                        <h5 class="card-title">Curcuma con vitamina C</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 8 -->
+                <div class="cardSuplementos">
+                    <img src="images/digGotasSuplementoDietario.JPG" class="card-img-top" alt="DigGotas suplemento">
+                    <div class="card-body">
+                        <h5 class="card-title">Dig Gotas</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                </section>
+                <section class="cardsContainer">
+                <!-- CARD 9 -->
+                <div class="cardSuplementos">
+                    <img src="images/HierbasSuplemento.JPG" class="card-img-top" alt="Hierbas diabetes suplemento">
+                    <div class="card-body">
+                        <h5 class="card-title">Hierbas naturales Diabetes </h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 10 -->
+                <div class="cardSuplementos">
+                    <img src="images/HierbasSuplemento2.JPG" class="card-img-top" alt="Hierbas digestivas suplemento">
+                    <div class="card-body">
+                        <h5 class="card-title">Hierbas naturales Digestivas</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 10 -->
+                <div class="cardSuplementos">
+                    <img src="images/vitaminasSuplementoDietario.JPG" class="card-img-top" alt="Vitaminas suplemento">
+                    <div class="card-body">
+                        <h5 class="card-title">HVitaminas D + K</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 10 -->
+                <div class="cardSuplementos">
+                    <img src="images/magnesioSuplementoDietario.JPG" class="card-img-top" alt="Magnesio suplemento">
+                    <div class="card-body">
+                        <h5 class="card-title">Magnesio</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                </section>
+            </section>
+
+        </section>
+        <!-- FRAGANCIAS -->
+        <section class="productosContainer">
+            <div class="seccion3" id="seccionFragancias">
+                <img class="productosImg" src="images/background.fragancias.jpeg" width="1200px" alt="Imagen Fragancias">
+                <div class="infoContainerP">
+                    <p class="parrafoProduc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis incidunt
+                        itaque quibusdam similique facilis amet impedit iste suscipit veniam dolores quia, corporis
+                        doloribus vero autem dolore nemo rem, earum enim?.</p>
+                </div>
+            </div>
+            <!-- CARDS DE PRODUCTOS -->
+            <section class="cardsContainer">
+                <!-- CARD 1 -->
+                <div class="cardFragancias">
+                    <img src="images/ipPerfume1.JPG" class="card-img-top" alt="PerfumeH">
+                    <div class="card-body">
+                        <h5 class="card-title">Perfume hombre type Invictus</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 2 -->
+                </div>
+                <div class="cardFragancias">
+                    <img src="images/ipPerfumeH.JPG" class="card-img-top" alt="PerfumeH">
+                    <div class="card-body">
+                        <h5 class="card-title">Perfume hombre type 212 For Men -C.H.</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 3 -->
+                <div class="cardFragancias">
+                    <img src="images/ipPerfumeH2.JPG" class="card-img-top" alt="PerfumeH">
+                    <div class="card-body">
+                        <h5 class="card-title">Perfume hombre type Stronger With You Freeze – Giorgio Armani</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 4 -->
+                <div class="cardFragancias">
+                    <img src="images/ipPerfumeH3.JPG" class="card-img-top" alt="PerfumeH">
+                    <div class="card-body">
+                        <h5 class="card-title">Perfume hombre type 212 Vip-Carolina Herrera</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+            </section>
+            <section class="cardsContainer">
+                <!-- CARD 5 -->
+                <div class="cardFragancias">
+                    <img src="images/ipPerfumeM.JPG" class="card-img-top" alt="PerfumeM">
+                    <div class="card-body">
+                        <h5 class="card-title">Perfume Mujer type Good Girl Supreme – Carolina Herrera</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 6 -->
+                <div class="cardFragancias">
+                    <img src="images/ipPerfumeM2.JPG" class="card-img-top" alt="PerfumeM">
+                    <div class="card-body">
+                        <h5 class="card-title">Perfume Mujer Type Absolutely Irresistible</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 7 -->
+                <div class="cardFragancias">
+                    <img src="images/ipPerfumeM3.JPG" class="card-img-top" alt="PerfumeM">
+                    <div class="card-body">
+                        <h5 class="card-title">Perfume Mujer Type 212 Sexy- Carolina Herrera</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 8 -->
+                <div class="cardFragancias">
+                    <img src="images/ipPerfumeM4.JPG" class="card-img-top" alt="PerfumeM">
+                    <div class="card-body">
+                        <h5 class="card-title">Perfume Mujer Type Acqua Di Gioia</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+            </section>
+            <section class="cardsContainer">
+                <!-- CARD 5 -->
+                <div class="cardFragancias">
+                    <img src="images/fraganciaAmbiental.JPG" class="card-img-top" alt="Fragancia ambiental">
+                    <div class="card-body">
+                        <h5 class="card-title">Ambiental Coco & Vainilla</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 6 -->
+                <div class="cardFragancias">
+                    <img src="images/fraganciaAmbiental2.JPG" class="card-img-top" alt="Fragancia ambiental">
+                    <div class="card-body">
+                        <h5 class="card-title">Ambiental Flores de Azahares</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 7 -->
+                <div class="cardFragancias">
+                    <img src="images/fraganciaAmbiental3.JPG" class="card-img-top" alt="Fragancia ambiental ">
+                    <div class="card-body">
+                        <h5 class="card-title">Ambiental Frutos rojos</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 8 -->
+                <div class="cardFragancias">
+                    <img src="images/fraganciaAmbiental4.JPG" class="card-img-top" alt="Fragancia ambiental">
+                    <div class="card-body">
+                        <h5 class="card-title">Ambiental Incienso & nag champa</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+        <!-- HIGIENE -->
+        <section class="productosContainer">
+            <div class="seccion4" id="seccionHigiene">
+                <img class="productosImg" src="images/background.higiene.jpeg" width="1200px" alt="Imagen higiene">
+                <div class="infoContainerP">
+                    <p class="parrafoProduc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis incidunt
+                        itaque quibusdam similique facilis amet impedit iste suscipit veniam dolores quia, corporis
+                        doloribus vero autem dolore nemo rem, earum enim?.</p>
+                </div>
+            </div>
+            <!-- CARDS DE PRODUCTOS -->
+            <section class="cardsContainer">
+                <!-- CARD 1 -->
+                <div class="cardHigiene">
+                    <img src="images/alcoholGel2.JPG" class="card-img-top" alt="Alcohol en gel de bolsillo">
+                    <div class="card-body">
+                        <h5 class="card-title">Alcohol en gel de bolsillo</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 2 -->
+                </div>
+                <div class="cardHigiene">
+                    <img src="images/alcoholGel.JPG" class="card-img-top" alt="Alcohol en gel">
+                    <div class="card-body">
+                        <h5 class="card-title">Alcohol en gel</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 3 -->
+                <div class="cardHigiene">
+                    <img src="images/sanitizanteHigiene.JPG" class="card-img-top" alt="Sanitizante de superficies">
+                    <div class="card-body">
+                        <h5 class="card-title">Sanitizante de superficies</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 4 -->
+                <div class="cardHigiene">
+                    <img src="images/desodoranteBucal.JPG" class="card-img-top" alt="Desodorante bucal">
+                    <div class="card-body">
+                        <h5 class="card-title">Desodorante refrescante bucal </h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- AROMATERAPIA -->
+        <section class="productosContainer" id="seccionAromaterapia">
+            <div class="seccion5">
+                <img class="productosImg" src="images/background.aromaterapia.jpeg" width="1200px" alt="Imagen de aromaterapia">
+                <div class="infoContainerP">
+                    <p class="parrafoProduc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis incidunt
+                        itaque quibusdam similique facilis amet impedit iste suscipit veniam dolores quia, corporis
+                        doloribus vero autem dolore nemo rem, earum enim?.</p>
+                </div>
+            </div>
+            <!-- CARDS DE PRODUCTOS -->
+            <section class="cardsContainer">
+                <!-- CARD 1 -->
+                <div class="cardAromat">
+                    <img src="images/aceiteEsencial.JPG" class="card-img-top" alt="Aceite esencial">
+                    <div class="card-body">
+                        <h5 class="card-title">Aceite esencial eucalipto </h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 2 -->
+                </div>
+                <div class="cardAromat">
+                    <img src="images/aceiteEsencial2.JPG" class="card-img-top" alt="Aceite esencial">
+                    <div class="card-body">
+                        <h5 class="card-title">Aceite esencial romero</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 3 -->
+                <div class="cardAromat">
+                    <img src="images/aceiteEsencial3.JPG" class="card-img-top" alt="Aceite esencial">
+                    <div class="card-body">
+                        <h5 class="card-title">Aceite esencial lavanda</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 4 -->
+                <div class="cardAromat">
+                    <img src="images/aceiteEsencial4.JPG" class="card-img-top" alt="Aceite esencial">
+                    <div class="card-body">
+                        <h5 class="card-title">Aceite esencial rosas</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+            </section>
+            <section class="cardsContainer">
+                <!-- CARD 5 -->
+                <div class="cardAromat">
+                    <img src="images/aceitesBalsamicosAlmend.JPG" class="card-img-top" alt="Aceite balsamico">
+                    <div class="card-body">
+                        <h5 class="card-title">Aceite balsamico Almendras dulces</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 6 -->
+                <div class="cardAromat">
+                    <img src="images/aceitesBalsamicosRosa.JPG" class="card-img-top" alt="Aceite balsamico">
+                    <div class="card-body">
+                        <h5 class="card-title">Aceite balsamico Rosa mosqueta</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 7 -->
+                <div class="cardAromat">
+                    <img src="images/aceiteOleo.JPG" class="card-img-top" alt="Aceite oleo">
+                    <div class="card-body">
+                        <h5 class="card-title">Aceite oleo para masajes</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 8 -->
+                <div class="cardAromat">
+                    <img src="images/aceiteFacialCorporal.JPG" class="card-img-top" alt="Aceite facial-corporal-capilar">
+                    <div class="card-body">
+                        <h5 class="card-title">Aceite base corporal-facial-capilar Blend</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+        <!-- COMBOS -->
+        <section class="productosContainer">
+            <div class="seccion6" id="seccionCombos">
+                <img class="productosImg" src="images/background.combos.jpeg" width="1200px" alt="Imagen combos">
+                <div class="infoContainerP">
+                    <p class="parrafoProduc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis incidunt
+                        itaque quibusdam similique facilis amet impedit iste suscipit veniam dolores quia, corporis
+                        doloribus vero autem dolore nemo rem, earum enim?.</p>
+                </div>
+            </div>
+            <!-- CARDS DE PRODUCTOS -->
+            <section class="cardsContainer">
+                <!-- CARD 1 -->
+                <div class="cardCombos">
+                    <img src="images/comboCabelloBaby.JPG" class="card-img-top" alt="Combo cabello baby">
+                    <div class="card-body">
+                        <h5 class="card-title" id="comboBaby">Combo cabello Baby</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 2 -->
+                </div>
+                <div class="cardCombos">
+                    <img src="images/comboFacialVegan.PNG" class="card-img-top" alt="Combo vegan">
+                    <div class="card-body">
+                        <h5 class="card-title">Combo Facial Vegan </h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 3 -->
+                <div class="cardCombos">
+                    <img src="images/comboFacialOrigenes.PNG" class="card-img-top" alt="Combo origenes">
+                    <div class="card-body">
+                        <h5 class="card-title">Combo Facial Origenes</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 4 -->
+                <div class="cardCombos">
+                    <img src="images/comboFacialBasicals.JPG" class="card-img-top" alt="Combo basicals">
+                    <div class="card-body">
+                        <h5 class="card-title">Combo Facial-Basicals</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+            </section>
+            </section>
+               
+        <!-- LINEAS ESPECIALES -->
+        <section class="productosContainer">
+            <div class="seccion7" id="seccionLineasE">
+                <img class="productosImg" src="images/background.lineasespeciales.jpeg" width="1200px" alt="Imagen lineas especiales">
+                <div class="infoContainerP">
+                    <p class="parrafoProduc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis incidunt
+                        itaque quibusdam similique facilis amet impedit iste suscipit veniam dolores quia, corporis
+                        doloribus vero autem dolore nemo rem, earum enim?.</p>
+                </div>
+            </div>
+            <!-- CARDS DE PRODUCTOS -->
+            <section class="cardsContainer">
+                <!-- CARD 1 -->
+                <div class="cardLineas" id="cremaOrdene">
+                    <img src="images/cremaOrdenieBasicals.JPG" class="card-img-top" alt="Crema de ordeñe">
+                    <div class="card-body">
+                        <h5 class="card-title">Crema Ordeñe</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 2 -->
+                </div>
+                <div class="cardLineas">
+                    <img src="images/cremaUltraHidratante.jpg" class="card-img-top" alt="Crema ultra-hidratante">
+                    <div class="card-body">
+                        <h5 class="card-title">Crema ultra-hidratante -Basicals</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                        </div>
+                </div>
+                <!-- CARD 3 -->
+                <div class="cardLineas">
+                    <img src="images/cremaUltraRegeneradora.jpg" class="card-img-top" alt="Crema UltraRegeneradora">
+                    <div class="card-body">
+                        <h5 class="card-title">Crema UltraRegeneradora -Basicals</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+                <!-- CARD 4 -->
+                <div class="cardLineas">
+                    <img src="images/cremaUltraRegeneradora.jpg" class="card-img-top" alt="Combo basicals completo">
+                    <div class="card-body">
+                        <h5 class="card-title">Crema UltraRegeneradora</h5>
+                        <p>$</p>
+                        <a href="#" class="btn btn-primary boton">Comprar</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="cardsContainer">
+         <!-- CARD 5 -->
+         <div class="cardLineas">
+            <img src="images/CremaFacialDiaOrigenes.JPG" class="card-img-top" alt="Crema facial dia">
+            <div class="card-body">
+                <h5 class="card-title">Crema facial dia-Origenes</h5>
+                <p>$</p>
+                <a href="#" class="btn btn-primary boton">Comprar</a>
+            </div>
+        </div>
+        <!-- CARD 6 -->
+        <div class="cardLineas">
+            <img src="images/CremaFacialNocheOrigenes.JPG" class="card-img-top" alt="Crema facial noche">
+            <div class="card-body">
+                <h5 class="card-title">Crema facial noche-Origenes</h5>
+                <p>$</p>
+                <a href="#" class="btn btn-primary boton">Comprar</a>
+            </div>
+        </div>
+        <!-- CARD 7 -->
+        <div class="cardLineas">
+            <img src="images/SerumFacialOrigenes.JPG" class="card-img-top" alt="Serum facial">
+            <div class="card-body">
+                <h5 class="card-title">Serum facial-Origenes</h5>
+                <p>$</p>
+                <a href="#" class="btn btn-primary boton">Comprar</a>
+            </div>
+        </div>
+        <!-- CARD 8 -->
+        <div class="cardLineas">
+            <img src="images/brumaFacialOrigenes.JPG" class="card-img-top" alt="Bruma facial">
+            <div class="card-body">
+                <h5 class="card-title">Bruma facial-Origenes</h5>
+                <p>$</p>
+                <a href="#" class="btn btn-primary boton">Comprar</a>
+            </div>
+        </div>
+    </section>
+    <section class="cardsContainer">
+        <!-- CARD 9 -->
+        <div class="cardLineas">
+           <img src="images/cremaFacialVegan.JPG" class="card-img-top" alt="Crema facial vegan">
+           <div class="card-body">
+               <h5 class="card-title">Crema facial hidratante vegan</h5>
+               <p>$</p>
+               <a href="#" class="btn btn-primary boton">Comprar</a>
+           </div>
+       </div>
+       <!-- CARD 10 -->
+       <div class="cardLineas">
+           <img src="images/tonicoFacialVegan.JPG" class="card-img-top" alt="Tonico facial vegan">
+           <div class="card-body">
+               <h5 class="card-title">Tonico facial humectante vegan</h5>
+               <p>$</p>
+               <a href="#" class="btn btn-primary boton">Comprar</a>
+           </div>
+       </div>
+       <!-- CARD 11 -->
+       <div class="cardLineas">
+           <img src="images/gelFacialVegan.JPG" class="card-img-top" alt="Gel de limpieza vegan ">
+           <div class="card-body">
+               <h5 class="card-title">Gel de limpieza facial vegan</h5>
+               <p>$</p>
+               <a href="#" class="btn btn-primary boton">Comprar</a>
+           </div>
+       </div>
+       <!-- CARD 12 -->
+       <div class="cardLineas">
+           <img src="images/desmaquillanteVegan.JPG" class="card-img-top" alt="Desmaquillante facial">
+           <div class="card-body">
+               <h5 class="card-title">Leche desmaquillante facial vegan</h5>
+               <p>$</p>
+               <a href="#" class="btn btn-primary boton">Comprar</a>
+           </div>
+       </div>
+   </section>
+</section>
+    <!-- CATALOGO -->
+        <section class="productosContainer">
+            <div class="seccion8">
+                <a class="productosImg" href="images/bioCatalogo.Julio.pdf"><img src="images/catalogo.imagen.png"
+                        width="300px" alt="Catalogo"></a>
+                <div class="infoContainerP"></div>
+                <h1 class="titulosP" id="catalogo">CATALOGO</h1>
+            </div>
+            </div>
+        </section>
+    </section>
+
+
+    <!-- SECCION DE CONTACTO/FORM -->
+    <section>
+        <div class="seccionFormContainer">
+            <p class="tituloForm">Sé la primera en enterarte de las novedades y promociones de Bioesencia</p>
+            <div class="form">
+                <form>
+                    <label for="Ingrese su e-mail" id="email"></label>
+                    <input type="email" placeholder="Ingrese su e-mail" id="email">
+                    <input type="submit" class="botonOk" value="OK">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div>
+            <h1 class="footer__titulo">Bioesencia</h1>
+            <h4 class="footer__subtitulo">Zona oeste</h4>
+        </div>
+
+        <div class="footer__pie">
+            <a class="contactanos" href="contacto.html">Contactanos</a>
+            <div class="email">
+                <h4>E-mail:</h4>
+                <p class="mail">bioesenciazoneoeste@gmail.com</p>
+            </div>
+            <a class="quienesSomos" href="acercade.html">Quienes somos</a>
+            <div class="logoIg">
+                <a href="https://instagram.com/bioesencia.zonaoeste?utm_medium=copy_link"> <img
+                        src="images/iconoInstagram.png" width="40px" alt="Bioesencia.zonaoeste">
+            </div></a>
+        </div>
+        </div>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

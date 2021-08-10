@@ -1,0 +1,302 @@
+/* MARGENES */
+* {
+    margin: 0px;
+    padding: 0px;
+   }
+
+   /* HEADER */
+   @import "header.scss";
+    /* FOOTER en todas las secciones */
+   @import "footer.scss";
+   /* SECCION HOME */
+   @import "index.scss";
+   /*SECCION PROMOCIONES*/
+   @import "promociones.scss";
+   /*SECCION PRODUCTOS*/
+   @import "productos.scss";
+   /*SECCION CONTACTO*/
+   @import "contacto.scss";
+   /*SECCION ACERCA DE*/
+   @import "acercade.scss";
+   /*VARIABLES*/
+   @import "variables.scss";
+
+   /* COLOR DEL BODY COMPLETO */
+   body {
+       background-color: #D2D6D9;
+       font-family: 'Times New Roman', Times, serif;
+      
+      p{
+      color: $colorLetra; 
+      }
+   }
+   
+   /* QUERYS MOBILE HOME */
+   
+   /* MENU MOBILE */
+   
+   @media only screen and (min-width:370px) and (max-width:960px) {
+       .contenedorMenu {
+         display: none;
+       }
+   }
+   
+   @media only screen and (min-width:960px) {
+       .menu-mobile {
+           display: none;
+       }
+   }
+   
+   .topnav {
+      overflow: hidden;
+      background-color: #333;
+      position: relative;
+   }
+   
+   .topnav #myLinks {
+      display: none;
+   }
+   
+   .topnav a {
+      color: rgb(32, 29, 29);
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+   }
+   
+   .topnav a.icon {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      margin: 0%;
+      padding: 0%;
+   }
+   
+   .topnav a:hover {
+      background-color:rgb(242, 240, 235);
+      color: white;
+   }
+   .active {
+      background-color:rgb(242, 240, 235);
+      color: black;
+   }
+   
+   @media screen and (max-width: 960px) {
+   
+      .logo {
+         display: none;
+      }
+      .sectionCarruselContainer {
+         width: 350px;
+         margin-left: 10px;
+      }
+   
+     .imagenesContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+     }
+     .seccionV {
+        display: flex;
+        flex-direction: column;
+     }
+     .imgV {
+        display: flex;
+        width: 350px;
+     }
+     .parrafoContainer {
+        display: flex;
+       margin-left: 5%;
+       border: solid;
+       background-color: rgba(243, 242, 239, 0.479);
+     }
+     .nuevaLinea {
+        display: flex;
+        margin-left: 50px;
+     }
+     .parrafoV {
+        font-size: 15px;
+        color: black;
+        margin-left: 5px;
+        margin-bottom: 5px;
+     }
+     .linkSeccionV {
+        display: flex;
+        justify-content: center;
+        color: rgb(17, 70, 70);
+        text-decoration: underline;
+        font-weight: bolder;
+        margin-bottom: 5px;
+     }
+     .seccionFormContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     .tituloForm {
+       display: flex;
+        font-size: 20px;
+        margin-left: 30px;
+        margin-right: 25px;
+     }
+     .form {
+        display: flex;
+        align-items: center;
+     }
+     .botonOk {
+        width: 40px;
+     }
+     header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+   }  
+      .seccionDestacados {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+      }
+      .cardDestacados {
+         border: solid 1px rgba(223, 132, 177, 0.849);
+         padding: 5px;
+         margin: 10px;
+         width: 250px;
+      }
+      .card-title {
+         display: flex;
+         justify-content: center;
+      }
+      a.button {
+         display: flex;
+         justify-content: center;
+         margin-top: 50px;
+      }
+      .footer {
+         display: flex;
+         align-items: center;
+      }
+      .footer__pie {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+      }
+      .email {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+      }
+      /* SECCION ACERCA DE */
+      .acercade {
+         display: flex;
+      .acercade__titulo {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+     }
+     .acercade__Container {
+        display: flex;
+        flex-direction: column;
+     }
+     .acercade__imagen {
+      width: 300px;
+      display: flex;
+      justify-content: center;
+      margin: 15px;
+   }
+    .acercade__Bio {
+      font-size: 20px;
+   }
+   .sobreNosotras {
+      display: flex;
+      flex-direction: column;
+   }
+   .tituloSobreNosotras {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .imagenSobreNosotras {
+      @extend .acercade__imagen;
+   }
+   /* SECCION PRODUCTOS */
+   .productosContainer {
+      display: flex;
+      flex-direction: column;
+   }
+   .productosImg {
+      width: 380px;
+   }
+   .parrafoProduc {
+         display: none;
+      }
+
+   .seccion8 {
+      display: flex;
+      width: 150px;
+      justify-content: center;
+      align-items: center;
+
+      .titulosP {
+         display: none;
+      }
+   }
+   /* SECCION PROMOCIONES */
+   .sectionCompletaPromociones {
+      display: flex;
+      flex-direction: column;
+
+      .tituloOfertas {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+      .subtituloOfertas {
+         font-size: 15px;
+       }
+   }
+   .cardsOfertasContainer {
+      display: none;
+   }
+   .sectionPromocionesContainer2 {
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      margin-top: 30px;
+   }
+   .cardCombo2 {
+      display: none;
+   }
+   .linkP {
+      display: flex;
+      .infoLinks {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 15px;
+      }
+   }
+   
+   /* SECCION CONTACTO */
+   .contacto {
+      display: grid;
+      .tituloContacto {
+         font-size: 20px;
+         display: flex;
+      }
+      .imagContacto {
+      display: none;
+      }
+      .infoContainer {
+         background-color: #D2D6D9;
+
+      }
+   }
+
+ }
+
+
+     

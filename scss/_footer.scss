@@ -1,0 +1,78 @@
+@import "variables.scss";
+
+.footer {
+    background-image: url(../images/background.16.jpeg);
+    display: flex;
+    flex-direction: column;
+
+    .footer__titulo {
+      text-align: center;
+      font-family: 'Parisienne', cursive;
+      font-size: 40px;
+      line-height: 60px;
+      color: $colorLetra;
+   }
+   .footer__subtitulo {
+      text-align: center;
+      color: rgba(75, 64, 64, 0.76);
+      line-height: 1px;
+      font-size: 15px;
+   }
+   
+   
+   .footer__pie {
+      height: 200px;
+      display: flex;
+      margin-top: 40px;
+      justify-content: center;
+      justify-content: space-around;
+   }
+   
+   .contactanos {
+      color:rgb(64, 56, 56);
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 20px; 
+      font-weight: bolder;
+      text-decoration: underline;
+   }
+   .contactanos:hover{
+      transform: scale(1.04);
+   }
+   
+   .email {
+      color:rgb(64, 56, 56);
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 20px;
+      font-weight: bolder;
+   }
+   
+   .mail {
+      color: $colorLetra;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 20px;
+      font-weight: bolder;
+   }
+   
+   .quienesSomos {
+      color:$colorLetra;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 20px; 
+      font-weight: bolder;
+      text-decoration: underline;
+   }
+   .quienesSomos:hover{
+      transform: scale(1.04);
+   }
+   
+   .logoIg {
+      display: flex;
+   }
+   .logoIg:hover {
+      transform: scale(1.1);
+   }
+   h1 {
+      color: rgba(64, 56, 56, 0.698);
+      text-align: center;
+      font-size: 40px;
+   }
+ }

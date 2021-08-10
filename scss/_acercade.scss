@@ -1,0 +1,60 @@
+ /* SECCION SOBRE BIOESENCIA Y SOBRE NOSOTRAS */
+ .acercade {
+    display: flex;
+    flex-direction: column;
+ }
+.acercade__titulo {
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+   font-size: 50px;
+}
+
+.acercade__Container {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 30px;
+   margin-left: 10%;
+   margin-right: 5%;
+   margin-bottom: 1%;
+
+   background-color: rgb(242, 240, 235);
+}
+.acercade__Bio {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 3%;
+   margin-right: 3%;
+   font-size: 30px;
+
+}
+.sobreNosotras {
+   display: flex;
+   justify-content: space-between;
+   justify-content: center;
+   margin-top: 30px;
+   margin-left: 10%;
+   margin-right: 5%;
+   margin-bottom: 5%;
+
+   background-color: rgb(242, 240, 235);
+}
+.tituloSobreNosotras {
+   display: flex;
+   margin-left: 3%;
+   font-family: 'Parisienne', cursive;
+   font-size: 30px;
+}
+
+.parrafoSobreNosotras {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 3%;
+   margin-right: 3%;
+   font-size: 20px;
+}
+.imagenSobreNosotras {
+   display: flex;
+}

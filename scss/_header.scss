@@ -1,0 +1,93 @@
+@import "variables.scss";
+li {
+    margin-right: 60px;
+ }
+ /* COLOR HEADER */
+ 
+ nav {
+    background-color: rgb(242, 240, 235);
+ }
+ 
+ 
+ /* MENU */ 
+ .contenedorMenu {
+    display: flex;
+    margin-top: 40px;
+ }
+ 
+ /* LOGO */
+ 
+ .logo {
+    display: flex;
+    margin-left: 30px;
+ }
+ 
+ .menu {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 8px;
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    list-style-type: none;
+    a {
+      text-decoration: none;
+      list-style: none;
+      color: black;
+   }
+    
+   /* SUMBMENU */
+ .submenu {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 30px;
+  text-decoration: none;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  color: $colorLetra;
+
+}
+ }
+ 
+ 
+ ul {
+    background-color:rgba(242, 240, 235, 0.678);
+ }
+ 
+ ul {
+    list-style: none;
+    font-size:0 /* truco por el uso de inline-block*/
+ }
+ li {
+    display: inline-block;
+    position:relative;
+    font-size: 14px
+ }
+ ul ul {
+    position: absolute;
+    display: none;
+ }
+ ul ul li {
+    display: block;
+ }
+ ul li:hover ul {
+    display:block;
+ }
+ 
+ 
+ /* TITULO Y SUBTITULO */
+ .header__titulo {
+     text-align: center;
+     font-family: 'Parisienne', cursive;
+     font-size: 50px;
+     line-height: 60px;
+     color:$colorLetra;
+ }
+ .header__subtitulo {
+     text-align: center;
+     color: rgba(75, 64, 64, 0.678);
+     line-height: 1px;
+     font-size: 15px;
+ }
