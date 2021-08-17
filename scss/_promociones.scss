@@ -57,7 +57,19 @@ a.buttonP {
     }
 
  }
-
+/* boton de cards */
+a.buttonP {
+   display: flex;
+   justify-content: center;
+   align-items: baseline;
+   margin-top: 40px;
+   background-color: rgba(0, 0, 0, 0.692);
+   border: black;
+}
+a.buttonP:hover {
+   background-color: rgb(102, 86, 86);
+   border: black;
+}
  
  /* TEXTO EN PROMOCIONES */
  
