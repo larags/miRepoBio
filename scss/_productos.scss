@@ -106,12 +106,14 @@
    color: rgb(23, 25, 26);
 }
 .parrafoProducLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
     margin-top: 30px;
    font-size: 30px;
-   color: rgb(23, 25, 26);
-   display: flex;
-   justify-content: center;
-   align-items: center;
+   color: rgba(102, 86, 86, 0.712);
+   text-decoration: none;
 
 }
 .parrafoProducLink:hover {
